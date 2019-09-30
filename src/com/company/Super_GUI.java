@@ -120,6 +120,7 @@ public class Super_GUI
                 {
                     e.printStackTrace();
                 }
+                Toolkit.getDefaultToolkit().sync();
             }
         });
         t.start();
